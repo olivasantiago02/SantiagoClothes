@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/fonod.jpg');
+}
+
+.navbar-nav > li {
+    margin-right: 90px; /* Ajusta según la separación deseada */
+}
+
+/* Añade este estilo si también quieres espacio a la izquierda del primer enlace */
+.navbar-nav > li:first-child {
+    margin-left: 15px; /* Ajusta según la separación deseada */
+}
+
+/* Agrega estilos adicionales según tus preferencias para la sección de Visión y Misión */
+.vision-mision-section {
+    background-image: url('../images/fonod.jpg'); /* Cambia el color de fondo según tus preferencias */
+    padding: 50px 0;
+}
+
+.card {
+    transition: transform 0.3s;
+    background-color: rgb(255, 255, 255);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos personalizados para el aside */
+aside {
+    background-color: #1b1a1a;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para las categorías */
+.categoria {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.categoria:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Estilos personalizados para las cards */
+.card-productos {
+    margin: 10px;
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+
+
+.card-title-producto {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-text-producto {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.precio {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.btn-agregar {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-agregar:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el enlace que parece un botón */
+.btn-enlace {
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta según sea necesario */
+    font-size: 16px; /* Ajusta según sea necesario */
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #007bff; /* Borde del botón */
+    cursor: pointer;
+}
+
+/* Cambiar el color del botón al pasar el ratón sobre él */
+.btn-enlace:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.container {
+    max-width: 1300px; /* Ancho máximo del contenedor principal */
+    margin: 50px auto; /* Centra el contenedor en la página */
+}
+
+.column {
+    display: flex; /* Usa flexbox para organizar los elementos en columna */
+    justify-content: space-between; /* Espaciado uniforme entre los elementos */
+}
+
+.Carrito-Tienda {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos de Carrito-Tienda se envuelvan en líneas */
+    justify-content: space-between; /* Espaciado uniforme entre los elementos */
+}
+
+.cards-carrito {
+    background-color: #343a40; /* Color oscuro para el carrito */
+    padding: 15px;
+    border: 1px solid #343a40; /* Borde del carrito */
+    margin-top: 20px; /* Espacio entre Carrito-Tienda y el carrito */
+    width: 100%; /* Ocupa el 100% del ancho disponible */
+    box-sizing: border-box; /* El borde y el relleno no afectan al ancho total */
+    color: white; /* Color del texto dentro del carrito */
+}
+
+
+.cards-productos img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el carrito */
+#carrito {
+    list-style: none; /* Elimina el estilo de viñeta de la lista */
+    padding: 0;
+    margin: 0;
+}
+
+aside.cards-carrito{
+    display: flexbox;
+    flex-direction: column;
+    padding: 5%;
+    margin-top: -1px;
+    margin-bottom: 150px;
+}
+
+#carrito .list-group-item {
+    background-color: #00000010; /* Color oscuro para los elementos del carrito */
+    border: 20px; /* Sin bordes */
+    color: rgb(255, 255, 255); /* Color del texto en el carrito */
+    margin-bottom: 15px; /* Espaciado inferior */
+}
+
+#total {
+    color: rgb(122, 200, 40); /* Color del texto del total */
+}
+
+#boton-vaciar {
+    background-color: #d62234; /* Color rojo para el botón de vaciar carrito */
+    color: white; /* Color del texto del botón */
+    margin-top: 15px; /* Espaciado superior */
+}
+
+#boton-vaciar:hover {
+    background-color: #c82333; /* Color rojo más oscuro al pasar el ratón sobre el botón */
+}
+
+div.card-body h5{
+    font-size: smaller;
+}
+
+div.card-body img{
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.titulo-form {
+    color: rgb(230, 26, 26);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: azure;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-media label {
+    margin: 0 10px 0 0;
+}
+
+.social-media input {
+    width: 40px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 100%;
+
+}
+
+.redes-sociales {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.redes-sociales h3 {
+    color: rgb(198, 177, 177);
+}
+
+.logos img {
+    width: 50px; /* Ajusta el tamaño según tus necesidades */
+    margin: 0 10px; /* Espaciado entre logos */
+}

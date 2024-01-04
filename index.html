@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <title>Santiago - Store Clothes</title>
+</head>
+<body>
+
+    <!-- Header con Bootstrap -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">Santiago Clothes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html"><i class="bi bi-house"></i>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/productos.html"><i class="bi bi-check2-circle"></i>Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/carrito.html">
+                            <i class="bi bi-cart3"></i> Tienda
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/contacto.html"><i class="bi bi-headset"></i>Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Carrusel de Imágenes -->
+<div id="carrusel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./images/r.jpg" class="d-block img-fluid" alt="Imagen 1" width="100%">
+        </div>
+        <div class="carousel-item">
+            <img src="./images/istockphoto-1810940856-2048x2048.jpg" class="d-block img-fluid" alt="Imagen 2">
+        </div>
+        <div class="carousel-item">
+            <img src="./images/v.jpg" class="d-block img-fluid" alt="Imagen 3" width="100%">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+    </button>
+</div>
+
+<!-- Sección de Visión y Misión -->
+<section class="vision-mision-section">
+    <div class="container text-center">
+        <h2 class="mb-4">Santiago Clothes</h2>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5 class="mb-0">Visión</h5>
+                    </div>
+                    <div class="card-body">
+                        
+                      <p>La visión de <strong>Santiago Clothes</strong> se orienta hacia la transformación integral de la industria de la moda, siendo líderes en la adopción de prácticas <strong>sostenibles</strong> y <strong>éticas</strong>. Enfocados en la reutilización de <strong>telas</strong>, aspiramos a redefinir el concepto de moda al inspirar a nuestros clientes a abrazar un estilo consciente, donde cada prenda cuenta una historia de respeto hacia el <strong>medio ambiente</strong>. Visualizamos un futuro donde la moda <strong>sostenible</strong> no sea simplemente una opción, sino la norma, y donde la <strong>innovación</strong> y la <strong>responsabilidad social</strong> se fusionen para crear un impacto positivo duradero en la industria y en la sociedad. Con <strong>Santiago Clothes</strong>, buscamos liderar el camino hacia un mundo donde la <strong>elegancia</strong> y la <strong>sostenibilidad</strong> coexistan armoniosamente, contribuyendo a un cambio significativo en la percepción y práctica de la moda a nivel global.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5 class="mb-0">Misión</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>La <strong>misión</strong> de <strong>Santiago Clothes</strong> es impregnar cada hilo de nuestro tejido empresarial con un compromiso inquebrantable con la <strong>sostenibilidad</strong>, la <strong>innovación</strong> y la <strong>responsabilidad social</strong>. Nos esforzamos por confeccionar prendas que no solo reflejen calidad y estilo, sino que también representen un impacto positivo en el <strong>entorno</strong> y la sociedad. A través de la utilización de <strong>telas reutilizadas</strong>, buscamos reducir nuestro impacto ambiental y fomentar un consumo consciente. Nuestra misión es inspirar a los amantes de la moda a adoptar un enfoque más ético al vestir, promoviendo la idea de que cada elección de vestimenta puede contribuir a la construcción de un futuro más sostenible. En <strong>Santiago Clothes</strong>, nos enorgullece tejer una narrativa donde la moda y la responsabilidad convergen, trascendiendo las tendencias efímeras para dejar una huella duradera en el mundo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de Productos Seleccionados -->
+<section class="productos-seleccionados-section">
+    <div class="container">
+        <h2 class="text-center mb-4">Productos Seleccionados</h2>
+
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./images/camiseta-blanca.jpg" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Camiseta Reciclada</h5>
+                        <p class="card-text">Material: Algodón reciclado</p>
+                        <p class="card-text">Precio: $20.00</p>
+                        <a href="./html/carrito.html" class="btn-enlace">Ver Tienda</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./images/jean-claro-tienda.jpg" class="card-img-top" alt="Producto 2" height="330px">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeans Eco-Friendly</h5>
+                        <p class="card-text">Material: Denim reciclado</p>
+                        <p class="card-text">Precio: $45.00</p>
+                        <a href="./html/carrito.html" class="btn-enlace">Ver Tienda</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./images/bolso-playa-tienda.jpg" class="card-img-top" alt="Producto 3" height="330px">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolso Sostenible</h5>
+                        <p class="card-text">Material: Materiales plásticos reciclados</p>
+                        <p class="card-text">Precio: $30.00</p>
+                        <a href="./html/carrito.html" class="btn-enlace">Ver Tienda</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Footer con Bootstrap -->
+ <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <div class="row">
+            <!-- Sección de Enlaces Rápidos -->
+            <div class="col-md-4 mb-3">
+                <h5>Enlaces Rápidos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="./index.html"><i class="bi bi-house"></i>Inicio</a></li>
+                    <li><a href="./html/productos.html"><i class="bi bi-check2-circle"></i>Productos</a></li>
+                    <li><a href="./html/carrito.html"><i class="bi bi-cart3"></i>Tienda</a></li>
+                    <li><a href="./html/contacto.html"><i class="bi bi-headset"></i>Contacto</a></li>
+                </ul>
+            </div>
+
+            <!-- Sección de Redes Sociales -->
+            <div class="col-md-4 mb-3">
+                <h5>Redes Sociales</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://api.whatsapp.com/send?phone=3515294930&text=Hola%20desde%20mi%20sitio%20web"" target="_blank">Whatsapp</a></li>
+                    <li><a href="https://www.linkedin.com/in/santiago-oliva-9743a4274/" target="_blank">LinkEdin</a></li>
+                    <li><a href="https://www.instagram.com/santioliva02/" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+
+            <!-- Sección de Contacto -->
+            <div class="col-md-4 mb-3">
+                <h5>Contacto</h5>
+                <p>Dirección: Pasaje Alameda 2375, Cordoba Capital</p>
+                <p>Email: santipboliva@hotmail.com</p>
+                <p>Teléfono: +54 351 529 4930</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- Resto de tu contenido -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./JavaScript/main.js"></script>
+</body>
+</html>
